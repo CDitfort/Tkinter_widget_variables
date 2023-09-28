@@ -6,7 +6,7 @@ window = tk.Tk()
 window.title('Tkinter Variables')
 
 #tkinter variable
-string_var = tk.StringVar()
+string_var = tk.StringVar(value='test')
 
 #Widgets
 label = ttk.Label(master=window,text='Label', textvariable=string_var)
